@@ -1,10 +1,10 @@
 import React from "react";
+import HeaderTitle from "../shared/headerTitle";
 
 function About(){
     return(
         <div>
-            <h1>About us</h1>
-            <p>We are a Software Company based with Front-end using ReactJS</p>
+            <HeaderTitle title="About Us" tagline="We are a Software Company Using React JS" />
         </div>
     )
 }
